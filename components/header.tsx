@@ -38,12 +38,14 @@ export default function Header() {
             height={38}
           />
           <div className="flex">
-            <p className="flex font-light leading-none">websites & more</p>
+            <p className="flex text-gray-950 font-light leading-none text-base">
+              websites & more
+            </p>
           </div>
         </motion.div>
       </motion.div>
       <nav className="flex fixed top-[0.15rem] left-1/2 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
-        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500">
+        <ul className="flex  flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500">
           {links.map((link) => (
             <motion.li
               className=" flex items-center justify-center"
@@ -52,7 +54,7 @@ export default function Header() {
               animate={{ y: 0, x: "-50%", opacity: 1 }}
             >
               <Link
-                className="flex items-center justify-center px-3 py-3 hover:text-gray-950 transition"
+                className="flex text-base items-center justify-center px-3 py-3 hover:text-gray-950 transition"
                 href={link.hash}
               >
                 {link.name}

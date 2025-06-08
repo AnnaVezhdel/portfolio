@@ -10,7 +10,7 @@ import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
   return (
-    <section>
+    <section className="mx-auto max-w-5xl">
       <div className="flex flex-col items-center justify-center sm:flex-row gap-4">
         <div className="flex flex-col gap-5">
           <motion.h1
