@@ -10,9 +10,12 @@ import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
   return (
-    <section className="mx-auto max-w-5xl">
-      <div className="flex flex-col items-center justify-center sm:flex-row gap-4">
-        <div className="flex flex-col gap-5">
+    <section
+      id="home"
+      className="mx-auto max-w-5xl py-8 md:py-16 px-5 scroll-mt-28"
+    >
+      <div className="flex flex-col items-center justify-center sm:flex-row gap-8">
+        <div className="flex flex-col gap-5 max-w-2xl">
           <motion.h1
             initial={{
               x: -500,
@@ -28,12 +31,17 @@ export default function Intro() {
             }}
             className="text-center text-xl text-gray-900 sm:text-2xl"
           >
-            Hi, I’m <span className="font-bold">Anna</span>. A passionate{" "}
-            <span className="font-bold">front-end developer</span> from
-            Humpolec, Czechia.📍
+            Hi, I’m <span className="font-bold">Anna</span> — a junior{" "}
+            <span className="font-bold">front-end developer</span> ready to help
+            you create a{" "}
+            <span className="font-bold">
+              dynamic website, commercial project
+            </span>{" "}
+            or a <span className="font-bold">web application</span>. Feel free
+            to contact me
           </motion.h1>
           <motion.div
-            className="flex items-center justify-center gap-4 flex-col sm:flex-row"
+            className="flex flex-col md:flex-row items-center justify-center gap-6 px-4 text-lg font-medium"
             initial={{
               x: -500,
               opacity: 0,
@@ -49,7 +57,7 @@ export default function Intro() {
           >
             <Link
               href="#contact"
-              className="group bg-gray-900 font-medium text-white px-7 py-3 flex items-center gap-2 rounded-full md:px-9 md:text-xl outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+              className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
             >
               Contact me here{" "}
               <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
@@ -58,15 +66,16 @@ export default function Intro() {
             <a
               href="/Anna_Vezhdel_CV.pdf"
               download
-              className="group cursor-pointer bg-white px-7 py-3 font-medium flex items-center gap-2 rounded-full md:px-9 md:text-xl outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10"
+              className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
             >
               Download CV{" "}
-              <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
+              <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
             </a>
           </motion.div>
         </div>
         <div className="relative">
           <motion.div
+            className="w-50 h-50 rounded-full overflow-hidden border-[0.25rem] border-white shadow-xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -79,7 +88,7 @@ export default function Intro() {
               alt="avatar"
               width={240}
               height={240}
-              className="rounded-full object-contain border-[0.35rem] border-white shadow-xl"
+              className="object-cover"
             />
           </motion.div>
 
