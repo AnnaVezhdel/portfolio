@@ -57,7 +57,7 @@ export default function Intro() {
           >
             <Link
               href="#contact"
-              className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+              className="min-w-[14.05rem] group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
             >
               Contact me here{" "}
               <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
@@ -66,7 +66,7 @@ export default function Intro() {
             <a
               href="/Anna_Vezhdel_CV.pdf"
               download
-              className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+              className="min-w-[14rem] group bg-white px-7 py-3 flex justify-center items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
             >
               Download CV{" "}
               <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />

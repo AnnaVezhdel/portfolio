@@ -33,7 +33,7 @@ export default function Contacts() {
             >
               <Link
                 href={`${contact.link}`}
-                className="rounded-full p-4 bg-white shadow-lg"
+                className="rounded-full p-4 bg-white dark:bg-white/10 shadow-lg focus:scale-110 hover:scale-110 active:scale-105"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -59,7 +59,7 @@ export default function Contacts() {
                 hidden: { x: -50, opacity: 0 },
               }}
             >
-              <h1 className=" font-bold text-xl">{contact.title}</h1>
+              <h1 className="font-bold text-xl">{contact.title}</h1>
               <Link href={`${contact.link}`} className=" text-gray-500">
                 {contact.text}
               </Link>
