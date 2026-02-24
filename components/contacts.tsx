@@ -33,7 +33,7 @@ export default function Contacts() {
             >
               <Link
                 href={`${contact.link}`}
-                className="rounded-full p-4 bg-white dark:bg-white/10 shadow-lg focus:scale-110 hover:scale-110 active:scale-105"
+                className="rounded-full p-4 bg-white dark:bg-gray-700 shadow-lg focus:scale-110 hover:scale-110 active:scale-105"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -60,7 +60,10 @@ export default function Contacts() {
               }}
             >
               <h1 className="font-bold text-xl">{contact.title}</h1>
-              <Link href={`${contact.link}`} className=" text-gray-500">
+              <Link
+                href={`${contact.link}`}
+                className=" text-gray-500 dark:text-gray-400"
+              >
                 {contact.text}
               </Link>
             </motion.div>

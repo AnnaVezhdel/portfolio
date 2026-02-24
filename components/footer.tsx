@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="p-6 text-center text-gray-500">
+    <footer className="p-6 text-center text-gray-500 dark:text-gray-400">
       <small className="mb-2 block text-xs">
         Copyright &copy; 2026. All rights reserved. Developed by Anna Vezhdel
       </small>

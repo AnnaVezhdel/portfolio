@@ -8,14 +8,14 @@ import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 
-export default function Intro() {
+export default function Home() {
   return (
     <section
       id="home"
-      className="mx-auto max-w-5xl py-8 md:py-16 px-5 scroll-mt-28"
+      className="mt-20 mx-auto max-w-5xl py-8 md:py-16 px-5 scroll-mt-24"
     >
       <div className="flex flex-col items-center justify-center sm:flex-row gap-8">
-        <div className="flex flex-col gap-5 max-w-2xl">
+        <div className="flex flex-col gap-12 max-w-2xl">
           <motion.h1
             initial={{
               x: -500,
@@ -75,7 +75,7 @@ export default function Intro() {
         </div>
         <div className="relative">
           <motion.div
-            className="w-50 h-50 rounded-full overflow-hidden border-[0.25rem] border-white shadow-xl"
+            className="aspect-square rounded-full overflow-hidden shadow-xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -88,12 +88,11 @@ export default function Intro() {
               alt="avatar"
               width={240}
               height={240}
-              className="object-cover"
+              className="object-cover min-w-[10rem]"
             />
           </motion.div>
-
           <motion.span
-            className="absolute bottom-2 right-2 text-4xl sm:text-5xl"
+            className="absolute bottom-3 right-2 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{

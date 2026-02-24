@@ -26,7 +26,7 @@ export default function About() {
             visible: { opacity: 1, scale: 1 },
             hidden: { opacity: 0, scale: 0 },
           }}
-          className="hidden sm:flex min-w-70 w-full"
+          className="hidden md:flex w-full"
         >
           <Image
             src={laptopImg}

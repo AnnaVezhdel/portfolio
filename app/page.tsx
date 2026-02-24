@@ -1,13 +1,13 @@
 import About from "@/components/about";
 import Contacts from "@/components/contacts";
-import Intro from "@/components/intro";
+import Home from "@/components/home";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 
-export default function Home() {
+export default function Page() {
   return (
     <main className="flex flex-col items-center px-4">
-      <Intro />
+      <Home />
       <About />
       <Projects />
       <Skills />

@@ -36,7 +36,7 @@ export default function ThemeSwitch() {
 
   return (
     <button
-      className="flex shadow-2xl p-2 border border-gray-300 border-opacity-40 rounded-full bg-zinc-100 text-black hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-900  dark:text-white"
+      className="flex shadow-2xl p-2 border border-gray-300 border-opacity-40 rounded-full bg-zinc-100 text-black hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-800  dark:text-white"
       onClick={toggleTheme}
     >
       {" "}
