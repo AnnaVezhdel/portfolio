@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="mx-auto flex flex-col py-8 md:py-24 px-4 gap-6"
+      className="mx-auto flex flex-col py-8 md:py-24 px-4 gap-6 scroll-mt-24"
     >
       <SectionHeading>About me</SectionHeading>
       <div className="flex max-w-4xl gap-8">
