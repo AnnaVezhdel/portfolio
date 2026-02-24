@@ -48,7 +48,7 @@ export default function About() {
             visible: { opacity: 1 },
             hidden: { opacity: 0 },
           }}
-          className="text-gray-600 text-2xl flex  flex-col gap-4"
+          className="text-gray-600 text-2xl flex  flex-col gap-4 dark:text-gray-400"
         >
           Inspired web developer with strong analytical thinking and excellent
           organizational skills. <br />

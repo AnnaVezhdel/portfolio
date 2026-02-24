@@ -29,7 +29,7 @@ export default function Home() {
               duration: 0.5,
               delay: 0.1,
             }}
-            className="text-center text-xl text-gray-900 sm:text-2xl"
+            className="text-center text-xl text-gray-900 sm:text-2xl dark:text-gray-200"
           >
             Hi, I’m <span className="font-bold">Anna</span> — a junior{" "}
             <span className="font-bold">front-end developer</span> ready to help
