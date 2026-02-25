@@ -27,7 +27,7 @@ export default function Header() {
       >
         <nav className="flex items-center w-full justify-between fixed top-[0.15rem] left-1/2 -translate-x-1/2 py-2  sm:h-[initial] sm:py-0">
           <motion.div
-            className="flex max-h-[3rem] gap-1 px-4 py-1"
+            className="flex max-h-[3rem] px-4 py-1"
             initial={{
               x: -500,
               opacity: 0,
@@ -40,7 +40,7 @@ export default function Header() {
               duration: 0.5,
             }}
           >
-            <Link className="flex" href={""}>
+            <Link className="flex gap-1" href={""}>
               <Image
                 className="w-12 h-10"
                 src={logo}
@@ -48,7 +48,7 @@ export default function Header() {
                 width={48}
                 height={40}
               />
-              <p className="flex justify-center items-center text-gray-950 font-light dark:text-gray-400">
+              <p className="flex justify-center items-center text-gray-950 font-light dark:text-gray-300">
                 websites & more
               </p>
             </Link>

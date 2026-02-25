@@ -42,7 +42,7 @@ export const projectsData = [
       "PhoneBook is a web application that enables users to efficiently manage their contacts by adding, deleting, and searching.",
     tags: ["React", "Redux", "REST API", "Tailwind", "Redux", "DaisyUI", "Axios"],
     imageUrl: phonebookImg,
-    link: "https://goit-react-hw-08-livid-beta.vercel.app/",
+    link: "https://phonebook-hw-react.vercel.app/",
   },
   {
     title: "Portfolio",
