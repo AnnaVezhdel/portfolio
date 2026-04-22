@@ -2,6 +2,7 @@ import moneyGuardImg from "@/public/MoneyGuard.webp";
 import phonebookImg from "@/public/Phonebook.webp";
 import JeffesonImg from "@/public/Jefferson.webp";
 import watchCharmImg from "@/public/WatchCharm.webp";
+import CarHubImg from "@/public/CarHub.png";
 
 export const links = [
   {
@@ -28,10 +29,18 @@ export const links = [
 
 
 export const projectsData = [
+    {
+    title: "CarHub",
+    description:
+      "CarHub is a modern web application that allows users to browse and book cars by manufacturer and model with a clean, responsive interface.",
+    tags: ["React", "Next.js", "Tailwind", "TypeScript"],
+    imageUrl: CarHubImg,
+    link: "https://car-hub-annav.vercel.app/",
+  },
   {
     title: "MoneyGuard",
     description:
-      "Money Guard is a web application for managing personal finances by tracking income and expences. I was responsible for implementing the authentication system, configuring routing structure, other tasks in a team project.",
+      "Money Guard is a web application for managing personal finances by tracking income and expences. I was responsible for implementing the authentication system, routing structure and other tasks in a team project.",
     tags: ["React", "Node.js", "MongoDB", "Redux"],
     imageUrl: moneyGuardImg,
     link: "https://run-your-budget-fc-110.vercel.app/",
@@ -40,7 +49,7 @@ export const projectsData = [
     title: "Phonebook",
     description:
       "PhoneBook is a web application that enables users to efficiently manage their contacts by adding, deleting, and searching.",
-    tags: ["React", "Redux", "REST API", "Tailwind", "Redux", "DaisyUI", "Axios"],
+    tags: ["React", "Redux", "REST API", "Tailwind", "DaisyUI", "Axios"],
     imageUrl: phonebookImg,
     link: "https://phonebook-hw-react.vercel.app/",
   },
